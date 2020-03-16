@@ -15,7 +15,7 @@ import modelo.dao.ModeloActividad;
 /**
  * Servlet implementation class verActividades
  */
-@WebServlet("/verActividades")
+@WebServlet("/VerActividades")
 public class VerActividades extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -37,7 +37,7 @@ public class VerActividades extends HttpServlet {
 		
 		request.setAttribute("actividades", actividades);
 		
-		request.getRequestDispatcher("verActividades.jsp").forward(request, response);
+		request.getRequestDispatcher("VerActividades.jsp").forward(request, response);
 	}
 
 	

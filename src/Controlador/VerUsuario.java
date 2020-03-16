@@ -15,7 +15,7 @@ import modelo.dao.ModeloUsuario;
 /**
  * Servlet implementation class VerUsuarios
  */
-@WebServlet("/VerUsuarios")
+@WebServlet("/VerUsuario")
 public class VerUsuario extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
